@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>SigmaTech</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="header__logoimg">
+                    <img src="./assets/img/Logo.PNG" alt="logo" class="header__logo">
+                </a>
+                <div class="buttons">
+                    <img src="./assets/img/three.png" alt="three" class="header__three">
+                    <button class="header__white"></button>
+                    <div class="shop">
+                        <a href="./shop.html" class="header__shop">Shop</a>
+                        <div class="support">
+                            <a href="#" class="header__support">Support</a>
+                            <div class="search">
+                                <form action="/search" method="get">
+                                    <input type="text" class="header__search" placeholder="Search...">
+                                    <img src="./assets/img/search.png" alt="header__searchbtnimg" class="header__searchbtnimg"> 
+                                </form>
+                            </div>
+                            <script>
+                                const searchForm = document.querySelector('.search form');
+                                const searchInput = document.querySelector('.header__search');
+                                const searchButton = document.querySelector('.header__searchbtnimg'); 
+                         
+                                searchButton.addEventListener('click', (event) => {
+                                    event.preventDefault();
+                                    searchForm.submit();
+                                });
+                            </script>
+                                <div class="login">
+                                    <a href="./login/login.html" class="header__login">
+                                        <img src="./assets/img/account.png" alt="account" class="header__login-img">
+                                    </a>
+                                    <div class="cart">
+                                        <a href="#">
+                                            <img src="./assets/img/cart.png" alt="cart" class="header__cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <div class="container">
+            <div class="buttons">
+                <button class="info__rectangle"></button>
+                <button class="info__whiterectangle"></button>
+                <img src="./assets/img/threeinfo.png" alt="three" class="info__three">
+                <div class="mouse">
+                    <a href="#" class="info__mouse">
+                        <img src="./assets/img/mouse.png" alt="mouse" class="info__mouse">
+                    </a>
+                </div>
+
+                <script>
+                    const mouseLink = document.querySelector('.info__mouse'); 
+
+                    mouseLink.addEventListener('click', (event) => {
+                    event.preventDefault();
+
+                    window.scrollTo({
+                        top: document.body.scrollHeight,
+                        behavior: 'smooth'
+                    });
+                    setTimeout(() => {
+                        window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                        });
+                    }, 3000);
+                    });
+
+
+                </script>
+
+                    <div class="text">
+                        <p class="info__maintext">We are the winners, be with us</p>
+                        <p class="info__text">Dominate players with our new collection</p>
+                        <div class="btn">
+                            <a href="./shop.html" class="info__shopnow">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="choose__container">
+            <div class="subtitle">
+                <p class="choose__why">Why choose us</p>
+                <div class="choose__buttons">
+                    <button class="choose__btn1"></button>
+                    <button class="choose__btn2"></button>
+                    <button class="choose__btn3"></button>
+                </div>
+                    <div class="img">
+                        <img src="./assets/img/delivery.png" alt="delivery" class="choose__delivery">
+                        <img src="./assets/img/discounts.png" alt="discount" class="choose__discount">
+                        <img src="./assets/img/money.png" alt="money" class="choose__money">
+                        <div class="subtitletext">
+                            <p class="choose__subtextdel">Delivery</p>
+                            <p class="choose__subtextdis">Discounts</p>
+                            <p class="choose__subtextava">Availability</p>
+                            <div class="text">
+                                <p class="choose__textdel">Fast and convenient delivery - your order will arrive to you as soon as possible, without any hassle.</p>
+                                <p class="choose__textdis">Special offers for regular customers - receive bonuses and discounts for your loyalty.</p>
+                                <p class="choose__textava">Competitive Prices - We offer fair prices with no hidden fees.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="setup">
+        <div class="container">
+            <div class="supportt">
+                <button popovertarget="my-popover" popovertargetaction="show" class="setup__popoversupportt">
+                  <button popovertarget="my-popover" class="setup__support"></button>
+                  <button popovertarget="my-popover" class="setup__upsupport"></button>
+                  <button popovertarget="my-popover" class="setup__threesupport"></button>
+            </div>
+                <div id="my-popover" popover>
+                    <img src="./assets/img/logosup.PNG" alt="support" class="setup__popoverlogo">
+                    <button class="setup__popoverbut" ></button>
+                    <button class="setup__popoverbig"></button>
+                    <button class="setup__popovermes"></button>
+                    <p class="setup__popovermess">Hello! How can I help you?</p>
+                    <input type="text" class="setup__popovertype" placeholder="Type a message...">
+                    <button type="submit" class="setup__subbb">
+                        <img src="./assets/img/send.png" alt="send" class="setup__send">
+                    </button>
+                </div>
+            </button>
+              </div>
+                <div class="subtitle">
+                    <p class="setup__subtitle">Ready Setups</p>
+                    <div class="blackset">
+                        <p class="setup__blacksetup">Black Setup</p>
+                        <img src="./assets/img/bwsetupBLUR.jpg" alt="blackset" class="setup__black">
+                        <img src="./assets/img/bwsetup.jpg" alt="blackset" class="setup__blackset">
+                        <div class="btn">
+                            <a href="https://28bit.ru/igrovoy-kompyuter-amd-ryzen-7-7700-x-rtx-4070-super-12-gb-ddr5-32-gb-ssd-1tb-750w/" class="setup__learn1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="whiteset">
+                    <p class="setup__whitesetup">White Setup</p>
+                        <img src="./assets/img/whitesetupBLUR.jpg" alt="whiteset" class="setup__white">
+                        <img src="./assets/img/whitesetup.jpg" alt="whiteset" class="setup__whiteset">
+                    <div class="btn">
+                        <a href="https://28bit.ru/beliy-igrovoy-kompyuter-intel-core-i5-13400f-b760-ddr4-ddr4-32-gb-3200-mhz-nvidia-rtx-3060ti-8-gb-ssd-256-gb-pci-e-ssd-1000-gb-pci-e-case-matx-zhidkostnoe-240-mm-650-vt/" class="setup__learn2">Learn More</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="title">
+                <a href="#" class="footer__about">ABOUT</a>
+                <a href="#" class="footer__investors">INVESTORS</a>
+                <a href="#" class="footer__contact">CONTACT</a>
+                <a href="#" class="footer__faq">FAQ</a>
+                <div class="social">
+                    <a href="#">
+                        <img src="./assets/img/discord.png" alt="discord" class="footer__discord">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/tg.png" alt="tg" class="footer__tg">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/vk.png" alt="vk" class="footer__vk">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/facebook.png" alt="facebook" class="footer__facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/youtube.png" alt="YT" class="footer__youtube">
+                    </a>
+                     <div class="subscribe">
+                        <form action="#" method="post">
+                            <input type="email" id="choose__email" class="choose__email" placeholder="email address*" required>
+                            <button type="submit" id="submitt">Get updates</button>
+                        </form>
+                            <div class="reserved">
+                                <p class="footer__reserved">© 2024 SigmaTech. All rights reserved</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>SigmaTech</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="header__logoimg">
+                    <img src="../assets/img/Logo.PNG" alt="logo" class="header__logo">
+                </a>
+                <div class="buttons">
+                    <img src="../assets/img/three.png" alt="three" class="header__three">
+                    <button class="header__white"></button>
+                    <div class="shop">
+                        <a href="../shop.html" class="header__shop">Shop</a>
+                        <div class="support">
+                            <a href="#" class="header__support">Support</a>
+                            <div class="search">
+                                <form action="/search" method="get">
+                                    <input type="text" class="header__search" placeholder="Search...">
+                                    <img src="../assets/img/search.png" alt="header__searchbtnimg" class="header__searchbtnimg"> 
+                                </form>
+                            </div>
+                            <script>
+                                const searchForm = document.querySelector('.search form');
+                                const searchInput = document.querySelector('.header__search');
+                                const searchButton = document.querySelector('.header__searchbtnimg'); 
+                         
+                                searchButton.addEventListener('click', (event) => {
+                                    event.preventDefault();
+                                    searchForm.submit();
+                                });
+                            </script>
+                                <div class="login">
+                                    <a href="../login/login.html" class="header__login">
+                                        <img src="../assets/img/account.png" alt="account" class="header__login-img">
+                                    </a>
+                                    <div class="cart">
+                                        <a href="#">
+                                            <img src="../assets/img/cart.png" alt="cart" class="header__cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="micemain">
+        <div class="container">
+            <div class="subtitle">
+                <p class="micemain__subtitle">MICE</p>
+                <button class="micemain__btn"></button>
+                <div class="text">
+                    <p class="micemain__text">Forget about losing! Precise adjustment, ergonomic design, fast response - it fits perfectly in your hand and gives you complete control in every game.</p>
+                        <div class="mice">
+                            <img src="../assets/img/mouseshop.png" class="micemain__mice">
+                            <div class="bgmice" style="background: url(../assets/img/mouseshop.png) repeat;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="miceshop">
+        <div class="container">
+            <div class="menu">
+                <div class="miceshop__1menu">
+                    <button class="miceshop__1"></button>
+                    <img src="../assets/img/1mice.png" class="miceshop__11">
+                </div>
+                <div class="miceshop__2menu">
+                    <button class="miceshop__2"></button>
+                    <img src="../assets/img/2mice.png" class="miceshop__22">
+                </div>
+                <div class="miceshop__3menu">
+                    <button class="miceshop__3"></button>
+                    <img src="../assets/img/3mice.png" class="miceshop__33">
+                </div>
+                <div class="miceshop__4menu">
+                    <button class="miceshop__4"></button>
+                    <img src="../assets/img/4mice.png" class="miceshop__44">
+                </div>
+                <div class="miceshop__5menu">
+                    <button class="miceshop__5"></button>
+                    <img src="../assets/img/5mice.png" class="miceshop__55">
+                </div>
+                <div class="miceshop__6menu">
+                    <button class="miceshop__6"></button>
+                    <img src="../assets/img/6mice.png" class="miceshop__66">
+                </div>
+                <div class="text1">
+                    <p class="miceshop__text1">ARDOR GAMING Fury</p>
+                    <p class="miceshop__text11">17$</p>
+                </div>
+                <div class="text2">
+                    <p class="miceshop__text2">Phantom PRO</p>
+                    <p class="miceshop__text22">60$</p>
+                </div>
+                <div class="text3">
+                    <p class="miceshop__text3">Logitech G PRO</p>
+                    <p class="miceshop__text33">150$</p>
+                </div>
+                <div class="text4">
+                    <p class="miceshop__text4">LAMZU Atlantis V2</p>
+                    <p class="miceshop__text44">70$</p>
+                </div>
+                <div class="text5">
+                    <p class="miceshop__text5">Apple Magic Mouse</p>
+                    <p class="miceshop__text55">110$</p>
+                </div>
+                <div class="text6">
+                    <p class="miceshop__text6">Razer Basilisk V3</p>
+                    <p class="miceshop__text66">70$</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="title">
+                <a href="#" class="footer__about">ABOUT</a>
+                <a href="#" class="footer__investors">INVESTORS</a>
+                <a href="#" class="footer__contact">CONTACT</a>
+                <a href="#" class="footer__faq">FAQ</a>
+                <div class="social">
+                    <a href="#">
+                        <img src="../assets/img/discord.png" alt="discord" class="footer__discord">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/tg.png" alt="tg" class="footer__tg">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/vk.png" alt="vk" class="footer__vk">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/facebook.png" alt="facebook" class="footer__facebook">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/youtube.png" alt="YT" class="footer__youtube">
+                    </a>
+                     <div class="subscribe">
+                        <form action="#" method="post">
+                            <input type="email" id="choose__email" class="choose__email" placeholder="email address*" required>
+                            <button type="submit" id="submitt">Get updates</button>
+                        </form>
+                            <div class="reserved">
+                                <p class="footer__reserved">© 2024 SigmaTech. All rights reserved</p>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

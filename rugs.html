@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>SigmaTech</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="header__logoimg">
+                    <img src="../assets/img/Logo.PNG" alt="logo" class="header__logo">
+                </a>
+                <div class="buttons">
+                    <img src="../assets/img/three.png" alt="three" class="header__three">
+                    <button class="header__white"></button>
+                    <div class="shop">
+                        <a href="../shop.html" class="header__shop">Shop</a>
+                        <div class="support">
+                            <a href="#" class="header__support">Support</a>
+                            <div class="search">
+                                <form action="/search" method="get">
+                                    <input type="text" class="header__search" placeholder="Search...">
+                                    <img src="../assets/img/search.png" alt="header__searchbtnimg" class="header__searchbtnimg"> 
+                                </form>
+                            </div>
+                            <script>
+                                const searchForm = document.querySelector('.search form');
+                                const searchInput = document.querySelector('.header__search');
+                                const searchButton = document.querySelector('.header__searchbtnimg'); 
+                         
+                                searchButton.addEventListener('click', (event) => {
+                                    event.preventDefault();
+                                    searchForm.submit();
+                                });
+                            </script>
+                                <div class="login">
+                                    <a href="../login/login.html" class="header__login">
+                                        <img src="../assets/img/account.png" alt="account" class="header__login-img">
+                                    </a>
+                                    <div class="cart">
+                                        <a href="#">
+                                            <img src="../assets/img/cart.png" alt="cart" class="header__cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rugsmain">
+        <div class="container">
+            <div class="subtitle">
+                <p class="rugsmain__subtitle">RUGS</p>
+                <button class="rugsmain__btn"></button>
+                <div class="text">
+                    <p class="rugsmain__text">The optimal friction surface ensures precise mouse tracking, while the anti-slip coating makes the mat stable on any surface.</p>
+                        <div class="rugs">
+                            <img src="../assets/img/rugshop.png" class="rugsmain__rug">
+                            <div class="bgrugs" style="background: url(../assets/img/rugshop.png) repeat;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rugsshop">
+        <div class="container">
+            <div class="menu">
+                <div class="rugsshop__1menu">
+                    <button class="rugsshop__1"></button>
+                    <img src="../assets/img/1rug.png" class="rugsshop__11">
+                </div>
+                <div class="rugsshop__2menu">
+                    <button class="rugsshop__2"></button>
+                    <img src="../assets/img/2rug.png" class="rugsshop__22">
+                </div>
+                <div class="rugsshop__3menu">
+                    <button class="rugsshop__3"></button>
+                    <img src="../assets/img/3rug.png" class="rugsshop__33">
+                </div>
+                <div class="rugsshop__4menu">
+                    <button class="rugsshop__4"></button>
+                    <img src="../assets/img/4rug.png" class="rugsshop__44">
+                </div>
+                <div class="rugsshop__5menu">
+                    <button class="rugsshop__5"></button>
+                    <img src="../assets/img/5rug.png" class="rugsshop__55">
+                </div>
+                <div class="rugsshop__6menu">
+                    <button class="rugsshop__6"></button>
+                    <img src="../assets/img/6rug.png" class="rugsshop__66">
+                </div>
+                <div class="text1">
+                    <p class="rugsshop__text1">ARDOR Asia Tiger</p>
+                    <p class="rugsshop__text11">25$</p>
+                </div>
+                <div class="text2">
+                    <p class="rugsshop__text2">MD3a Serenity</p>
+                    <p class="rugsshop__text22">20$</p>
+                </div>
+                <div class="text3">
+                    <p class="rugsshop__text3">Razer Atlas</p>
+                    <p class="rugsshop__text33">130$</p>
+                </div>
+                <div class="text4">
+                    <p class="rugsshop__text4">MSI GD80 TIAMAT</p>
+                    <p class="rugsshop__text44">60$</p>
+                </div>
+                <div class="text5">
+                    <p class="rugsshop__text5">Red Square Hokusai</p>
+                    <p class="rugsshop__text55">11$</p>
+                </div>
+                <div class="text6">
+                    <p class="rugsshop__text6">A4Tech Bloody B-088S</p>
+                    <p class="rugsshop__text66">13$</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="title">
+                <a href="#" class="footer__about">ABOUT</a>
+                <a href="#" class="footer__investors">INVESTORS</a>
+                <a href="#" class="footer__contact">CONTACT</a>
+                <a href="#" class="footer__faq">FAQ</a>
+                <div class="social">
+                    <a href="#">
+                        <img src="../assets/img/discord.png" alt="discord" class="footer__discord">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/tg.png" alt="tg" class="footer__tg">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/vk.png" alt="vk" class="footer__vk">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/facebook.png" alt="facebook" class="footer__facebook">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/youtube.png" alt="YT" class="footer__youtube">
+                    </a>
+                     <div class="subscribe">
+                        <form action="#" method="post">
+                            <input type="email" id="choose__email" class="choose__email" placeholder="email address*" required>
+                            <button type="submit" id="submitt">Get updates</button>
+                        </form>
+                            <div class="reserved">
+                                <p class="footer__reserved">© 2024 SigmaTech. All rights reserved</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

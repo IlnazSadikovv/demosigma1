@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>SigmaTech</title>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="header__logoimg">
+                    <img src="../assets/img/Logo.PNG" alt="logo" class="header__logo">
+                </a>
+                <div class="buttons">
+                    <img src="../assets/img/three.png" alt="three" class="header__three">
+                    <button class="header__white"></button>
+                    <div class="shop">
+                        <a href="../shop.html" class="header__shop">Shop</a>
+                        <div class="support">
+                            <a href="#" class="header__support">Support</a>
+                            <div class="search">
+                                <form action="/search" method="get">
+                                    <input type="text" class="header__search" placeholder="Search...">
+                                    <img src="../assets/img/search.png" alt="header__searchbtnimg" class="header__searchbtnimg"> 
+                                </form>
+                            </div>
+                            <script>
+                                const searchForm = document.querySelector('.search form');
+                                const searchInput = document.querySelector('.header__search');
+                                const searchButton = document.querySelector('.header__searchbtnimg'); 
+                         
+                                searchButton.addEventListener('click', (event) => {
+                                    event.preventDefault();
+                                    searchForm.submit();
+                                });
+                            </script>
+                                <div class="login">
+                                    <a href="../login/login.html" class="header__login">
+                                        <img src="../assets/img/account.png" alt="account" class="header__login-img">
+                                    </a>
+                                    <div class="cart">
+                                        <a href="#">
+                                            <img src="../assets/img/cart.png" alt="cart" class="header__cart">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="monitormain">
+        <div class="container">
+            <div class="subtitle">
+                <p class="monitormain__subtitle">MONITORS</p>
+                <button class="monitormain__btn"></button>
+                <div class="text">
+                    <p class="monitormain__text">High refresh rates, fast response times and vibrant colors immerse you in the gaming experience with never-before-seen realism.</p>
+                        <div class="monitor">
+                            <img src="../assets/img/monitorshop.png" class="monitormain__monitor">
+                            <div class="bgmonitor" style="background: url(../assets/img/monitorshop.png) repeat;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="monitorshop">
+        <div class="container">
+            <div class="menu">
+                <div class="monitorshop__1menu">
+                    <button class="monitorshop__1"></button>
+                    <img src="../assets/img/1monitor.png" class="monitorshop__11">
+                </div>
+                <div class="monitorshop__2menu">
+                    <button class="monitorshop__2"></button>
+                    <img src="../assets/img/2monitor.png" class="monitorshop__22">
+                </div>
+                <div class="monitorshop__3menu">
+                    <button class="monitorshop__3"></button>
+                    <img src="../assets/img/3monitor.png" class="monitorshop__33">
+                </div>
+                <div class="monitorshop__4menu">
+                    <button class="monitorshop__4"></button>
+                    <img src="../assets/img/4monitor.png" class="monitorshop__44">
+                </div>
+                <div class="monitorshop__5menu">
+                    <button class="monitorshop__5"></button>
+                    <img src="../assets/img/5monitor.png" class="monitorshop__55">
+                </div>
+                <div class="monitorshop__6menu">
+                    <button class="monitorshop__6"></button>
+                    <img src="../assets/img/6monitor.png" class="monitorshop__66">
+                </div>
+                <div class="text1">
+                    <p class="monitorshop__text1">ASUS TUF Gaming VG27AQ1A</p>
+                    <p class="monitorshop__text11">370$</p>
+                </div>
+                <div class="text2">
+                    <p class="monitorshop__text2">DEXP DF22N1</p>
+                    <p class="monitorshop__text22">100$</p>
+                </div>
+                <div class="text3">
+                    <p class="monitorshop__text3">AG HORIZON AQ32H3</p>
+                    <p class="monitorshop__text33">300$</p>
+                </div>
+                <div class="text4">
+                    <p class="monitorshop__text4">Titan Army P27A2R</p>
+                    <p class="monitorshop__text44">260$</p>
+                </div>
+                <div class="text5">
+                    <p class="monitorshop__text5">Xiaomi G27i</p>
+                    <p class="monitorshop__text55">180$</p>
+                </div>
+                <div class="text6">
+                    <p class="monitorshop__text6">Samsung Odyssey G5</p>
+                    <p class="monitorshop__text66">360$</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="title">
+                <a href="#" class="footer__about">ABOUT</a>
+                <a href="#" class="footer__investors">INVESTORS</a>
+                <a href="#" class="footer__contact">CONTACT</a>
+                <a href="#" class="footer__faq">FAQ</a>
+                <div class="social">
+                    <a href="#">
+                        <img src="../assets/img/discord.png" alt="discord" class="footer__discord">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/tg.png" alt="tg" class="footer__tg">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/vk.png" alt="vk" class="footer__vk">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/facebook.png" alt="facebook" class="footer__facebook">
+                    </a>
+                    <a href="#">
+                        <img src="../assets/img/youtube.png" alt="YT" class="footer__youtube">
+                    </a>
+                     <div class="subscribe">
+                        <form action="#" method="post">
+                            <input type="email" id="choose__email" class="choose__email" placeholder="email address*" required>
+                            <button type="submit" id="submitt">Get updates</button>
+                        </form>
+                            <div class="reserved">
+                                <p class="footer__reserved">© 2024 SigmaTech. All rights reserved</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
